@@ -1,0 +1,70 @@
+.developers-section {
+    width: 100%;
+    padding-top: 30px;
+    align-items: center;
+    background:linear-gradient(to bottom,cornflowerblue,#44BBA4);
+}
+
+.heading_developers {
+    color: whitesmoke;
+    font-family: Playfair2;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.developers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.developer-card {
+    border: none !important;
+    align-items: center !important;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background:linear-gradient(to bottom,cornflowerblue,#44BBA4);
+}
+
+.developer-photo {
+    width: 73px !important;
+    height: 73px !important;
+}
+
+.developer-name {
+    font-family: PlayfairDisplay-Bold;
+    font-weight: 700;
+}
+
+.button-git {
+    color: black !important;
+    font-family: Playfair;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button-git:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+    .developers-section {
+        width: 100%;
+    }
+
+    .developers {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .developers-section {
+        width: 100%;
+    }
+
+    .developers {
+        flex-direction: row;
+    }
+}
