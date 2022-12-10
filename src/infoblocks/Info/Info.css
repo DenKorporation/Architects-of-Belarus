@@ -1,0 +1,117 @@
+
+.greetings {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    font-family: Playfair2;
+    font-weight: 700;
+
+    font-size: 46px;
+    color: black;
+    box-shadow: whitesmoke;
+    text-align: center;
+}
+
+.about {
+    padding-top:50px;
+    padding-bottom: 200px;
+    width: 100%;
+    background-image: url("../../img/bckg_about.png");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-around !important;
+
+}
+
+
+.text {
+    font-family: Playfair1;
+    font-weight: 400;
+    box-shadow: #291A2D;
+    color: white;
+    font-size: 21px;
+    width: 40%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 360px) {*/
+/*    .about {*/
+/*        flex-direction: column !important;*/
+/*    }*/
+
+/*    .text {*/
+/*        width: 80%;*/
+/*        text-align: center;*/
+/*        color: white;*/
+/*        padding-top: 20px;*/
+/*    }*/
+
+/*    .greetings {*/
+/*        width: 90%;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+
+/*!* Small devices (portrait tablets and large phones, 600px and up) *!*/
+/*@media only screen and (max-width: 600px) {*/
+/*    .about {*/
+/*        flex-direction: column !important;*/
+/*    }*/
+
+/*    .text {*/
+/*        width: 80%;*/
+/*        text-align: center;*/
+/*        color: #FFF;*/
+/*        padding-top: 20px;*/
+/*    }*/
+
+/*    .greetings {*/
+/*        width: 90%;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (max-width: 768px) {*/
+/*    .about {*/
+/*        flex-direction: column !important;*/
+/*    }*/
+
+/*    .text {*/
+/*        width: 80%;*/
+/*        text-align: center;*/
+/*        color: #FFF;*/
+/*        padding-top: 20px;*/
+/*    }*/
+
+/*    .greetings {*/
+/*        width: 90%;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+
+
+@media only screen and (max-width: 992px) {
+    .about {
+        flex-direction: column !important;
+    }
+
+    .text {
+        width: 80%;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 20px;
+    }
+
+    .greetings {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}
