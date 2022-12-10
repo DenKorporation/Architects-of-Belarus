@@ -1,3 +1,15 @@
+@font-face {
+	font-family: BoldF;
+	src: url(/src/fonts/1.ttf);
+}
+@font-face {
+	font-family: BigFont;
+	src: url(/src/fonts/2.ttf);
+}
+@font-face {
+	font-family: MediumS;
+	src: url(/src/fonts/3.ttf);
+}
 .App {
 	text-align: center;
 }

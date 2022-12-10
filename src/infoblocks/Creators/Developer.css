@@ -1,16 +1,18 @@
 .developers-section {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
-    padding-top: 30px;
+    padding-top: 15px;
     align-items: center;
-    background:linear-gradient(to bottom,cornflowerblue,#44BBA4);
+    background:linear-gradient(darkgray 78%,darkgrey);
 }
 
 .heading_developers {
     color: whitesmoke;
-    font-family: Playfair2;
+    font-family: BoldF;
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 35px;
+    text-align: center;
 }
 
 .developers {
@@ -25,7 +27,6 @@
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    background:linear-gradient(to bottom,cornflowerblue,#44BBA4);
 }
 
 .developer-photo {
