@@ -3,37 +3,31 @@
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    align-items: center;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
-
 .heading_person-section {
     font-family: BigFont;
+    font-weight: 700;
+    font-size: 30px;
     text-shadow: darkorange 1px 1px 15px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    font-size: 2rem;
     color: white;
-    text-align: center;
+    align-content: center;
 }
 
+
 .person-card {
+    background-color: rgba(255, 140, 0, 0.4)!important; /* 0.5 - полупрозрачный */
     border: none !important;
-    width: 100%;
-    flex-direction: row-reverse !important;
-    text-align: center;
+    width: 75%;
+    flex-direction: row !important;
+    align-items: center!important;
 }
 
 .person-photo {
     width: 10% !important;
     filter: drop-shadow(4px 4px 30px #D3D0CB);
-}
-.person-description {
-    font-family: BoldF;
-    font-weight: 400;
-    color: white;
-    font-size: 17px;
-    margin-right: 50px;
 }
 
 .person-name, .person-years {
@@ -43,17 +37,24 @@
     font-size: 30px !important;
 }
 
-
+.person-description {
+    font-family: MediumS;
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+}
 
 .button-more {
     border-radius: 10px !important;
     background: #DDE4EA !important;
     color: darkorange !important;
-    border: thin outset lightgray  !important;
+    border: none !important;
     font-family: BoldF !important;
     font-weight: 400 !important;
     font-size: 16px !important;
     padding: 10px 30px !important;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 
 .button-more:hover {
@@ -74,7 +75,7 @@
 
     .person-card {
         flex-direction: row-reverse !important;
-        align-items: end !important;
+        align-items: center !important;
 
     }
 

@@ -3,11 +3,15 @@
     width: 100%;
     padding-top: 15px;
     align-items: center;
-    background:linear-gradient(darkgray 78%,darkgrey);
+    background-image: url("../../img/bckg_about.png");
+    background-position: 0px -640px!important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .heading_developers {
-    color: whitesmoke;
+    text-shadow: darkorange 1px 0px 10px;
+    color: ghostwhite;
     font-family: BoldF;
     font-weight: 700;
     font-size: 30px;
@@ -22,26 +26,31 @@
 }
 
 .developer-card {
+    background-color: rgba(255,140,0,0.4)!important;
     border: none !important;
     align-items: center !important;
     width: 100%;
+    color: whitesmoke;
+    text-shadow: darkorange 1px 0px 10px;
     text-align: center;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .developer-photo {
+    padding-top: 5px;
     width: 73px !important;
     height: 73px !important;
 }
 
 .developer-name {
-    font-family: PlayfairDisplay-Bold;
+    font-family: BoldF;
     font-weight: 700;
 }
 
 .button-git {
     color: black !important;
-    font-family: Playfair;
+    font-family: MediumS;
     font-weight: 400;
     font-size: 18px;
 }

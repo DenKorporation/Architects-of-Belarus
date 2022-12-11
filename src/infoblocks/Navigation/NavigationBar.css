@@ -9,6 +9,7 @@
 
 
 .logo {
+	margin-right: 50px;
 	width: 50px !important;
 	height: 50px !important;
 }
@@ -19,27 +20,25 @@
 
 	color: #FFF !important;
 	font-weight: 500;*/
-	text-shadow: white 1px 1px 25px;
-	font-weight: 400!important;
-	color: whitesmoke;
-	font-size:2.5rem;
+	text-shadow: darkorange 1px 1px 25px!important;
+	font-weight: 600!important;
+	color: whitesmoke!important;
+	font-size:1.5rem!important;
 	font-family: BigFont;
 }
 
 .flag {
 
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .nav-languages{
-
 	text-shadow: darkorange 1px 1px 15px;
-	text-align: right;
 }
 .lang {
 
 	display: inline!important; ;
-	color:whitesmoke;
-	font-size: 1.3rem;
+	color:whitesmoke!important;
+	font-size: 1rem!important;
 	font-family:BoldF;
 
 }
