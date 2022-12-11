@@ -18,6 +18,7 @@
 
 
 .person-card {
+    height: 273px!important;
     background-color: rgba(255, 140, 0, 0.4)!important; /* 0.5 - полупрозрачный */
     border: none !important;
     width: 75%;
