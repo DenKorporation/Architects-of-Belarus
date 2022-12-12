@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/Architects-of-Belarus/static/css/main.3ce614fe.css",
-    "main.js": "/Architects-of-Belarus/static/js/main.a0dc49c6.js",
+    "main.css": "/Architects-of-Belarus/static/css/main.3699e4d9.css",
+    "main.js": "/Architects-of-Belarus/static/js/main.0d6063e9.js",
     "static/js/787.f290a9a1.chunk.js": "/Architects-of-Belarus/static/js/787.f290a9a1.chunk.js",
+    "static/media/3.png": "/Architects-of-Belarus/static/media/3.63105579c66762ea77c0.png",
     "static/media/bckg_about.png": "/Architects-of-Belarus/static/media/bckg_about.d5fb343980e58fd3b43c.png",
+    "static/media/1.png": "/Architects-of-Belarus/static/media/1.bc0b83b3916c43547954.png",
+    "static/media/2.png": "/Architects-of-Belarus/static/media/2.2626a7bd7d221d70b159.png",
     "static/media/3.ttf": "/Architects-of-Belarus/static/media/3.27705d9c43e8c36b1abd.ttf",
     "static/media/1.ttf": "/Architects-of-Belarus/static/media/1.9cc773ceac9236a65b30.ttf",
     "static/media/2.ttf": "/Architects-of-Belarus/static/media/2.2b5b319b99ef3d7e7ecb.ttf",
+    "static/media/back_info.png": "/Architects-of-Belarus/static/media/back_info.3056325ddf2fbc4c3825.png",
     "static/media/fface.png": "/Architects-of-Belarus/static/media/fface.c580c4f4d40b82aca4bc.png",
     "static/media/logo.svg": "/Architects-of-Belarus/static/media/logo.951da8abf0777953683140141ff57828.svg",
     "static/media/flagEng.svg": "/Architects-of-Belarus/static/media/flagEng.db8bfdfd5d360c6e80c23155e52ede73.svg",
     "static/media/flagRus.svg": "/Architects-of-Belarus/static/media/flagRus.78ce03ea05822e9fc9b5dc9f694b4072.svg",
     "index.html": "/Architects-of-Belarus/index.html",
     "static/media/getFetch.cjs": "/Architects-of-Belarus/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.3ce614fe.css.map": "/Architects-of-Belarus/static/css/main.3ce614fe.css.map",
-    "main.a0dc49c6.js.map": "/Architects-of-Belarus/static/js/main.a0dc49c6.js.map",
+    "main.3699e4d9.css.map": "/Architects-of-Belarus/static/css/main.3699e4d9.css.map",
+    "main.0d6063e9.js.map": "/Architects-of-Belarus/static/js/main.0d6063e9.js.map",
     "787.f290a9a1.chunk.js.map": "/Architects-of-Belarus/static/js/787.f290a9a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ce614fe.css",
-    "static/js/main.a0dc49c6.js"
+    "static/css/main.3699e4d9.css",
+    "static/js/main.0d6063e9.js"
   ]
 }
