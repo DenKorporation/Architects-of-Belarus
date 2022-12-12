@@ -14,26 +14,32 @@ function Developer() {
             <h2 className="heading_developers">{t("developers")}</h2>
             <div className="developers">
                 <Card className="developer-card">
-                    <Card.Img src={dev1} className="developer-photo"/>
+
+                    <Card.Link href="https://github.com/DenKorporation" target="_blank" className="developer-photo">
+                        <Card.Img src={dev1} />
+                    </Card.Link>
                     <Card.Body className="developer-info">
-                        <Card.Title className="developer-name">{t("dev1")}</Card.Title>
-                        <a href="https://github.com/DenKorporation" target="_blank" className="button-git">{t("github")}</a>
+                        <Card.Link  href="https://github.com/DenKorporation" target="_blank" className="developer-name">{t("dev1")}</Card.Link>
                     </Card.Body>
                 </Card>
 
                 <Card className="developer-card">
-                    <Card.Img src={dev2} className="developer-photo"/>
+                    <Card.Link href="https://github.com/Owllark" target="_blank">
+                        <Card.Img src={dev2} className="developer-photo"/>
+                    </Card.Link>
                     <Card.Body className="developer-info">
-                        <Card.Title className="developer-name">{t("dev2")}</Card.Title>
-                        <a href="https://github.com/Owllark" target="_blank" className="button-git">{t("github")}</a>
+
+                        <Card.Link  href="https://github.com/Owllark" target="_blank" className="developer-name">{t("dev2")}</Card.Link>
                     </Card.Body>
                 </Card>
 
                 <Card className="developer-card">
-                    <Card.Img src={dev3} className="developer-photo"/>
+                    <Card.Link href="https://github.com/iamnovik" target="_blank">
+                        <Card.Img src={dev3} className="developer-photo"/>
+                    </Card.Link>
                     <Card.Body className="developer-info">
-                        <Card.Title className="developer-name">{t("dev3")}</Card.Title>
-                        <a href="https://github.com/iamnovik" target="_blank" className="button-git">{t("github")}</a>
+
+                        <Card.Link  href="https://github.com/iamnovik" target="_blank" className="developer-name">{t("dev3")}</Card.Link>
                     </Card.Body>
                 </Card>
             </div>
