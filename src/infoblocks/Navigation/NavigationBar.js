@@ -14,7 +14,6 @@ function NavigationBar() {
 			<Navbar as="header" expand="lg" className="nav">
 				<Container>
 					<img src={logo} alt="logo" className="logo" />
-					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="me-auto">
 							<Link to="" className="nav-link">

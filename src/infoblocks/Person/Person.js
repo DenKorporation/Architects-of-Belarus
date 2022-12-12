@@ -15,9 +15,8 @@ function getRandomInt(max) {
 function PersonOfDay() {
 	const { t, i18n } = useTranslation();
 	const keys = Object.keys(data);
-	let index = getRandomInt(4);
+	let index = getRandomInt(5);
 	let id = keys[index];
-
 	return (
 		<Stack className="person-section">
 			<h2 className="heading_person-section">{t("person_of_day")}</h2>
@@ -36,7 +35,7 @@ function PersonOfDay() {
 					<Card.Text className="person-description">
 						{t(`architects.${id}.shortDescription`)}
 					</Card.Text>
-					<Button className="button-more" as={Link} to={`/architects/${id}`}>
+					<Button className="button-more" as={Link} to={`architects/${id}`}>
 						{t("personButton")}
 					</Button>
 				</Card.Body>

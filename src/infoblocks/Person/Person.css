@@ -1,92 +1,95 @@
 .person-section {
-    background-image : url("../../img/bckg_about.png");
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    align-items: center;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+	background-image: url("../../img/bckg_about.png");
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	align-items: center;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
 }
 .heading_person-section {
-    font-family: BigFont;
-    font-weight: 700;
-    font-size: 30px;
-    text-shadow: darkorange 1px 1px 15px;
-    color: white;
-    align-content: center;
+	font-family: BigFont;
+	font-weight: 700;
+	font-size: 30px;
+	text-shadow: darkorange 1px 1px 15px;
+	color: white;
+	align-content: center;
 }
 
-
 .person-card {
-    height: 273px!important;
-    background-color: rgba(255, 140, 0, 0.4)!important; /* 0.5 - полупрозрачный */
-    border: none !important;
-    width: 75%;
-    flex-direction: row !important;
-    align-items: center!important;
+	height: 273px !important;
+	background-color: rgba(
+		255,
+		140,
+		0,
+		0.4
+	) !important; /* 0.5 - полупрозрачный */
+	border: none !important;
+	width: 75%;
+	flex-direction: row !important;
+	align-items: center !important;
 }
 
 .person-photo {
-    width: 10% !important;
-    filter: drop-shadow(4px 4px 30px #D3D0CB);
+	width: 10% !important;
+	filter: drop-shadow(4px 4px 30px #d3d0cb);
 }
 
-.person-name, .person-years {
-    font-family: BoldF;
-    font-weight: 500;
-    color: white;
-    font-size: 30px !important;
+.person-name,
+.person-years {
+	font-family: BoldF;
+	font-weight: 500;
+	color: white;
+	font-size: 30px !important;
 }
 
 .person-description {
-    font-family: MediumS;
-    font-weight: 400;
-    color: white;
-    font-size: 17px;
+	font-family: MediumS;
+	font-weight: 400;
+	color: white;
+	font-size: 17px;
 }
 
 .button-more {
-    border-radius: 10px !important;
-    background: #DDE4EA !important;
-    color: darkorange !important;
-    border: none !important;
-    font-family: BoldF !important;
-    font-weight: 400 !important;
-    font-size: 16px !important;
-    padding: 10px 30px !important;
-    margin-top: 20px;
-    margin-left: 5px;
+	border-radius: 10px !important;
+	background: #dde4ea !important;
+	color: darkorange !important;
+	border: none !important;
+	font-family: BoldF !important;
+	font-weight: 400 !important;
+	font-size: 16px !important;
+	padding: 10px 30px !important;
+	margin-top: 20px;
+	margin-left: 5px;
 }
 
 .button-more:hover {
-    background: darkorange !important;
-    color: #E7E5DF !important;
+	background: darkorange !important;
+	color: #e7e5df !important;
 }
 
 @media only screen and (max-width: 992px) {
-    .person-section {
-        width: 100%;
-    }
+	.person-section {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 600px) {
-    .person-section {
-        width: 100%;
-    }
+	.person-section {
+		width: 100%;
+	}
 
-    .person-card {
-        flex-direction: row-reverse !important;
-        align-items: center !important;
+	.person-card {
+		flex-direction: row-reverse !important;
+		align-items: center !important;
+	}
 
-    }
+	.person-info {
+		text-align: center;
+	}
 
-    .person-info {
-        text-align: center;
-    }
-
-    .person-photo {
-        height: 2% !important;
-        width: 10% !important;
-    }
-
+	.person-photo {
+		height: 2% !important;
+		width: 10% !important;
+	}
 }
