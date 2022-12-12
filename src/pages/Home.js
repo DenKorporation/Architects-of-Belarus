@@ -1,6 +1,6 @@
 import './Home.css'
 import AboutSection from "../infoblocks/Info/Info";
-import Person from "../infoblocks/Person/Person";
+import Person from "../infoblocks/ArchSm/ArchSm";
 import Developer from "../infoblocks/Creators/Developer";
 
 function Home() {

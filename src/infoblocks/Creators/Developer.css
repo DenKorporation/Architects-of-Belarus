@@ -3,10 +3,7 @@
     width: 100%;
     padding-top: 15px;
     align-items: center;
-    /*background-image: url("../../img/bckg_about.png");
-    background-position: 0px -640px!important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;*/
+    background-color: darkgray;
 }
 
 .heading_developers {

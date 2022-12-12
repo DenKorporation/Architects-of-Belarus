@@ -3,21 +3,20 @@
 	padding-top: 0.15rem;
 	padding-bottom: 15px;
 	align-items: center;
-	/*background-image : url("../../img/bckg_about.png");
-    background-repeat: no-repeat !important;
-    background-size: cover !important;*/
+	background-color: darkgray;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6)!important;
 }
 .heading_person-section {
+
 	font-family: BigFont;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 2rem!important;
 	text-shadow: darkorange 1px 1px 15px;
 	color: white;
 	align-content: center;
 }
 
 .person-card {
-	height: 15rem !important;
 	background-color: rgba(
 		255,
 		140,
@@ -31,27 +30,31 @@
 }
 
 .person-photo {
+	padding-top: 0.5rem!important;
 	width: 10% !important;
 	filter: drop-shadow(4px 4px 30px #d3d0cb);
 }
-
+.person-name{
+	margin-top: 2rem!important;
+}
 .person-name,
 .person-years {
 	font-family: BoldF;
 	font-weight: 500;
 	color: white;
-	font-size: 30px !important;
+	font-size: 2.35rem !important;
+
+
 }
 
 .person-description {
 	font-family: MediumS;
 	font-weight: 400;
 	color: white;
-	font-size: 17px;
+	font-size: 1.25em!important;
 }
 
 .button-more {
-	border-radius: 10px !important;
 	background: #dde4ea !important;
 	color: darkorange !important;
 	border: none !important;
@@ -80,7 +83,7 @@
 	}
 
 	.person-card {
-		flex-direction: row-reverse !important;
+		flex-direction: column !important;
 		align-items: center !important;
 	}
 
@@ -89,7 +92,7 @@
 	}
 
 	.person-photo {
-		height: 2% !important;
-		width: 10% !important;
+		height:20% !important;
+		width: 25% !important;
 	}
 }

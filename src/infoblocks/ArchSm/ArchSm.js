@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
-import "./Person.css";
+import "./ArchSm.css";
 import data from "../../data.json";
 import "../../i18n.js";
 import { Link } from "react-router-dom";
