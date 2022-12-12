@@ -48,20 +48,13 @@
 .developer-name {
     font-family: BoldF;
     font-size: 1rem;
-    color:white;
+    color:white!important;
     text-decoration: none;
     margin-bottom:10px!important;
 }
 
-.button-git {
-    color: black !important;
-    font-family: MediumS;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.button-git:hover {
-    text-decoration: underline;
+.developer-name:hover{
+    text-shadow: white 1px 1px 10px;
 }
 
 @media only screen and (max-width: 992px) {
