@@ -1,11 +1,12 @@
 .person-section {
-    background-image : url("../../img/bckg_about.png");
+
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     align-items: center;
+    /*background-image : url("../../img/bckg_about.png");
     background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-size: cover !important;*/
 }
 .heading_person-section {
     font-family: BigFont;

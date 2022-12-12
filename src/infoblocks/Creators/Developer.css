@@ -3,10 +3,10 @@
     width: 100%;
     padding-top: 15px;
     align-items: center;
-    background-image: url("../../img/bckg_about.png");
+    /*background-image: url("../../img/bckg_about.png");
     background-position: 0px -640px!important;
     background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-size: cover !important;*/
 }
 
 .heading_developers {
@@ -27,7 +27,7 @@
 
 .developer-card {
     background-color: rgba(255,140,0,0.4)!important;
-    border: none !important;
+    border-radius: 50% !important;
     align-items: center !important;
     width: 100%;
     color: whitesmoke;
@@ -38,14 +38,19 @@
 }
 
 .developer-photo {
-    padding-top: 5px;
+    align-items: center;
+    padding-top: 15px;
     width: 73px !important;
     height: 73px !important;
+
 }
 
 .developer-name {
     font-family: BoldF;
-    font-weight: 700;
+    font-size: 1rem;
+    color:white;
+    text-decoration: none;
+    margin-bottom:10px!important;
 }
 
 .button-git {
