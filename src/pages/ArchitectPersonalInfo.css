@@ -12,6 +12,17 @@
 	width: 80%;
 	flex-direction: row !important;
 	align-items: center;
+	animation: animatop 0.9s cubic-bezier(0.425, 1.14, 0.47, 1.125) forwards;
+}
+@keyframes animatop {
+	0% {
+		opacity: 0;
+		bottom: -500px;
+	}
+	100% {
+		opacity: 1;
+		bottom: 0px;
+	}
 }
 
 .architect-photo {
@@ -40,10 +51,17 @@
 	width: 100%;
 }
 
-.vertical-timeline-element-hui {
+.vertical-info {
+	width: 80% !important;
+}
+
+.vertical-timeline-element-date-element {
 	color: orange !important;
 	font-size: 2em !important;
 	padding: 0 !important;
+}
+.vertical-timeline-element-content {
+	box-shadow: 0 3px 0 orange !important;
 }
 
 .works-carousel {

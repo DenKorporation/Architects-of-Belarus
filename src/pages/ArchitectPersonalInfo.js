@@ -10,6 +10,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Carousel from "react-bootstrap/Carousel";
+import { YMaps, Map, Placemark, GeoObject } from "@pbe/react-yandex-maps";
 
 import { useTranslation } from "react-i18next";
 
@@ -37,13 +38,16 @@ function ArchitectPersonalInfo() {
 					</Card.Text>
 				</Card.Body>
 			</Card>
-
-			<VerticalTimeline lineColor="rgb(255, 165, 0)" layout="1-column-left">
+			<VerticalTimeline
+				lineColor="rgb(255, 165, 0)"
+				layout="1-column-left"
+				className="vertical-info"
+			>
 				{data[id]["events"].map((time, index) => (
 					<VerticalTimelineElement
 						key={index}
 						date={time}
-						dateClassName="vertical-timeline-element-hui"
+						dateClassName="vertical-timeline-element-date-element"
 						className="vertical-timeline-element--work"
 						contentStyle={{
 							background: "rgb(128, 128, 128)",
@@ -74,7 +78,6 @@ function ArchitectPersonalInfo() {
 					</Carousel.Item>
 				))}
 			</Carousel>
-
 			<div className="video-wrapper">
 				<iframe
 					className="person-video"
@@ -83,8 +86,23 @@ function ArchitectPersonalInfo() {
 					allowFullScreen
 				></iframe>
 			</div>
-
-			<div id="map" className="person-map"></div>
+			<YMaps>
+				<Map
+					defaultState={{
+						center: data[id]["mapCoordinates"],
+						zoom: 9,
+						controls: ["zoomControl", "fullscreenControl", "typeSelector"],
+					}}
+					modules={[
+						"control.ZoomControl",
+						"control.FullscreenControl",
+						"control.TypeSelector",
+					]}
+					className="person-map"
+				>
+					<Placemark defaultGeometry={data[id]["mapCoordinates"]} />
+				</Map>
+			</YMaps>
 		</Stack>
 	);
 }

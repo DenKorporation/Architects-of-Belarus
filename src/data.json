@@ -17,7 +17,8 @@
       "2.png" : "2",
       "3.png" : "3"
     },
-    "videoLink": "7CsnFSbpUqE"
+    "videoLink": "7CsnFSbpUqE",
+    "mapCoordinates": [47.5741, 37.3175]
   },
 
   "ananic_uriy": {
@@ -37,7 +38,8 @@
       "2.png" : "2",
       "3.png" : "3"
     },
-    "videoLink": ""
+    "videoLink": "LiSW2jgILeQ",
+    "mapCoordinates": [53.902284, 27.561831]
   },
 
   "karako_viktor": {
@@ -60,7 +62,8 @@
       "2.png" : "2",
       "3.png" : "3"
     },
-    "videoLink": ""
+    "videoLink": "BUnzvaER5l8",
+    "mapCoordinates": [53.677839, 23.829529]
   },
 
   "korol_vladimir": {
@@ -82,7 +85,8 @@
       "2.png": "2",
       "3.png": "3"
     },
-    "videoLink": ""
+    "videoLink": "6H75nml2WMM",
+    "mapCoordinates": [53.714177, 28.418114]
   },
 
   "langbard_iosif": {
@@ -102,7 +106,8 @@
       "2.png" : "2",
       "3.png" : "3"
     },
-    "videoLink": ""
+    "videoLink": "dlQIlW3V-iU",
+    "mapCoordinates": [52.765155, 23.186793]
   }
 
 }
