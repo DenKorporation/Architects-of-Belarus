@@ -18,6 +18,8 @@ function ArchitectPersonalInfo() {
 	const { t, i18n } = useTranslation();
 	const params = useParams();
 	const id = params.id;
+	const info = t(`architects.${id}.info`, { returnObjects: true });
+	const captions = t(`architects.${id}.captions`, { returnObjects: true });
 	return (
 		<Stack className="architect-section">
 			<Card className="architect-card">
@@ -60,20 +62,20 @@ function ArchitectPersonalInfo() {
 							background: "rgb(255, 165, 0)",
 						}}
 					>
-						<p>{t(`architects.${id}.inf${index}`)}</p>
+						<p>{info[index]}</p>
 					</VerticalTimelineElement>
 				))}
 			</VerticalTimeline>
 			<Carousel interval={null} className="works-carousel">
-				{Object.entries(data[id]["gallery"]).map(([key, val], index) => (
+				{data[id]["gallery"].map((name, index) => (
 					<Carousel.Item key={index}>
 						<img
 							className="carousel-image"
-							src={require(`../img/${id}/${key}`)}
+							src={require(`../img/${id}/${name}`)}
 							alt={`${index + 1}`}
 						/>
 						<Carousel.Caption className="carousel-caption">
-							<p>{t(`architects.${id}.captions.${val}`)}</p>
+							<p>{captions[index]}</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 				))}
